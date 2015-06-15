@@ -1,4 +1,4 @@
-package store
+package serialization
 import "reflect"
 
 type MsgPackResolver map[string]reflect.Value
