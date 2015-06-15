@@ -1,0 +1,10 @@
+package: github.com/kellabyte/corfu
+
+incmd: bash -l
+
+# Declare your project's dependencies.
+import:
+  - package: github.com/Sirupsen/logrus
+  - package: github.com/boltdb/bolt
+  - package: github.com/msgpack-rpc/msgpack-rpc-go/rpc
+  - package: github.com/paulbellamy/ratecounter
