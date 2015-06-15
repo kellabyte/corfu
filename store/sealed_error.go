@@ -6,6 +6,6 @@ type SealedError struct {
 	address uint64
 }
 
-func (e SealedError) Error() string {
+func (e SealedError) String() string {
 	return e.message
 }
