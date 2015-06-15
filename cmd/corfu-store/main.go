@@ -17,4 +17,7 @@ func main() {
 
 	log.Info("Starting storage client")
 	storeClient.Listen()
+
+	storeClient.Append([]byte("hello, world!"))
+	storeClient.Read(0)
 }
